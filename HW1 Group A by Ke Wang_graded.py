@@ -444,6 +444,7 @@ ana_finder('sample.txt')
 from random import randrange
 import re
 
+#Stuart- Your code does not gurantee a matching number of open and close brackets
 # Set the initial result string to empty, recursively add brackets to the 
 # empty string from i == 0 and stops when i == n*2. 
 def brackets(n):
